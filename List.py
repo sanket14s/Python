@@ -8,3 +8,9 @@ if "Y" in a:
     print("Yes, available")
 else:
     print("Unavailable")
+a[1] = "Sanket"
+print(a)
+a[1:3] = ["Sanjivani", "Kopargaon"]
+print(a)
+a.insert(2, "Good_Night")
+print(a)
