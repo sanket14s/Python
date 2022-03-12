@@ -18,3 +18,15 @@ print(a)
 
 a.extend(b)
 print(a)
+
+a.remove("Yes")     #to remove Yes
+print(a)
+
+a.pop(1)            # to remove index item
+print(a)
+
+del a[1]            # to delete the item by its index
+print(a)
+
+b.clear()           # the items of the list will get clear, list will be empty
+print(b)
